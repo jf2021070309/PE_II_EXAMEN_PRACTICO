@@ -244,6 +244,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SOFTPETIDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SOFTPETIDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SOFTPETIDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SOFTPETIDataSet_3.cs">
       <DependentUpon>SOFTPETIDataSet_3.xsd</DependentUpon>
     </Compile>
@@ -374,6 +379,17 @@
     </None>
     <None Include="SOFTPETIDataSet.xss">
       <DependentUpon>SOFTPETIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SOFTPETIDataSet1.xsc">
+      <DependentUpon>SOFTPETIDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SOFTPETIDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SOFTPETIDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SOFTPETIDataSet1.xss">
+      <DependentUpon>SOFTPETIDataSet1.xsd</DependentUpon>
     </None>
     <None Include="SOFTPETIDataSet_3.xsc">
       <DependentUpon>SOFTPETIDataSet_3.xsd</DependentUpon>

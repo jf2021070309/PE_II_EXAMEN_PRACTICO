@@ -40,6 +40,31 @@ namespace WindowsFormsApp2.Clases
 
             return false;
         }
+        public bool ActualizarPassword(string email, string nuevaPassPlano)
+        {
+            try
+            {
+                using (DataClasses3DataContext dc = new DataClasses3DataContext())
+                {
+                    var usuario = dc.USUARIO.FirstOrDefault(u => u.email == email);
+                    if (usuario == null)
+                        return false;
+
+                    usuario.password_hash = ComputeSha256Hash(nuevaPassPlano);
+                    dc.SubmitChanges();
+
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al actualizar contraseña: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
+
+
+
 
         private string ComputeSha256Hash(string rawData)
         {

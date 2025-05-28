@@ -91,6 +91,13 @@ namespace WindowsFormsApp2
                 txtPass.UseSystemPasswordChar = false;
             }
         }
+        private string GenerarPasswordTemporal(int longitud = 8)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            var random = new Random();
+            return new string(Enumerable.Repeat(chars, longitud)
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
 
         private void btncerrar_Click(object sender, EventArgs e)
         {
@@ -104,6 +111,50 @@ namespace WindowsFormsApp2
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {
+
+        }
+
+        
+        private void btnRecuperarPass_Click_1(object sender, EventArgs e)
+        {
+            {
+                string email = txtCorreo.Text.Trim();
+
+                if (string.IsNullOrEmpty(email) || email == "USUARIO")
+                {
+                    RJMessageBox.Show("Por favor, ingrese un correo válido.", "Validación");
+                    return;
+                }
+
+                clsUsuario usuario = new clsUsuario();
+
+                // Verificar si el usuario existe
+                bool existeUsuario;
+                using (DataClasses3DataContext dc = new DataClasses3DataContext())
+                {
+                    existeUsuario = dc.USUARIO.Any(u => u.email == email);
+                }
+
+                if (!existeUsuario)
+                {
+                    RJMessageBox.Show("El correo ingresado no está registrado.", "Error");
+                    return;
+                }
+
+                // Generar nueva contraseña temporal
+                string nuevaPass = GenerarPasswordTemporal();
+
+                // Actualizar contraseña en BD
+                if (usuario.ActualizarPassword(email, nuevaPass))
+                {
+                    // Mostrar la nueva contraseña al usuario
+                    RJMessageBox.Show($"Su nueva contraseña temporal es:\n\n{nuevaPass}\n\nPor favor, cámbiela al iniciar sesión.", "Contraseña Actualizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    RJMessageBox.Show("No se pudo actualizar la contraseña. Intente más tarde.", "Error");
+                }
+            }
 
         }
     }

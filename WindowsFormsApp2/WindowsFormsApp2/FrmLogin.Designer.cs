@@ -41,6 +41,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnminimisar = new System.Windows.Forms.PictureBox();
             this.btncerrar = new System.Windows.Forms.PictureBox();
+            this.btnRecuperarPass = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -108,7 +109,7 @@
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.Location = new System.Drawing.Point(369, 335);
+            this.btnIngresar.Location = new System.Drawing.Point(369, 306);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(491, 39);
             this.btnIngresar.TabIndex = 0;
@@ -195,12 +196,30 @@
             this.btncerrar.TabStop = false;
             this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
+            // btnRecuperarPass
+            // 
+            this.btnRecuperarPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnRecuperarPass.FlatAppearance.BorderSize = 0;
+            this.btnRecuperarPass.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnRecuperarPass.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.btnRecuperarPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecuperarPass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecuperarPass.ForeColor = System.Drawing.Color.White;
+            this.btnRecuperarPass.Location = new System.Drawing.Point(490, 362);
+            this.btnRecuperarPass.Name = "btnRecuperarPass";
+            this.btnRecuperarPass.Size = new System.Drawing.Size(257, 39);
+            this.btnRecuperarPass.TabIndex = 79;
+            this.btnRecuperarPass.Text = "RECUPERAR CONTRASEÑA";
+            this.btnRecuperarPass.UseVisualStyleBackColor = false;
+            this.btnRecuperarPass.Click += new System.EventHandler(this.btnRecuperarPass_Click_1);
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(900, 424);
+            this.Controls.Add(this.btnRecuperarPass);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnminimisar);
             this.Controls.Add(this.label2);
@@ -243,5 +262,6 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox btnminimisar;
         private System.Windows.Forms.PictureBox btncerrar;
+        private System.Windows.Forms.Button btnRecuperarPass;
     }
 }
