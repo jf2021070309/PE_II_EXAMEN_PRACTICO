@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0F50F7C-9F9B-445B-9D49-41A5A980F079}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\clsSesion.cs" />
+    <Compile Include="Clases\clsUsuario.cs" />
+    <Compile Include="FormMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMessageBox.Designer.cs">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBCG2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBCG2.Designer.cs">
+      <DependentUpon>FrmBCG2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBCG3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBCG3.Designer.cs">
+      <DependentUpon>FrmBCG3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBCGgenerado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBCGgenerado.Designer.cs">
+      <DependentUpon>FrmBCGgenerado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDAFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDAFO.Designer.cs">
+      <DependentUpon>FrmDAFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDashBoard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDashBoard2.Designer.cs">
+      <DependentUpon>FrmDashBoard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIdentif_Estrategia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIdentif_Estrategia.Designer.cs">
+      <DependentUpon>FrmIdentif_Estrategia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPest.Designer.cs">
+      <DependentUpon>FrmPest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnalisis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnalisis.Designer.cs">
+      <DependentUpon>FrmAnalisis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoCadenaValor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoCadenaValor.Designer.cs">
+      <DependentUpon>FrmAutoCadenaValor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutodiagnosticoBCG_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutodiagnosticoBCG_2.Designer.cs">
+      <DependentUpon>FrmAutodiagnosticoBCG_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutodiagosticoPorter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutodiagosticoPorter.Designer.cs">
+      <DependentUpon>FrmAutodiagosticoPorter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoPest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoPest.Designer.cs">
+      <DependentUpon>FrmAutoPest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBCG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBCG.Designer.cs">
+      <DependentUpon>FrmBCG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadenaValor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadenaValor.Designer.cs">
+      <DependentUpon>FrmCadenaValor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDashBoard.Designer.cs">
+      <DependentUpon>FrmDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmpresas.Designer.cs">
+      <DependentUpon>FrmEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformacion.Designer.cs">
+      <DependentUpon>FrmInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMatrizCame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMatrizCame.Designer.cs">
+      <DependentUpon>FrmMatrizCame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMatrizDePorter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMatrizDePorter.Designer.cs">
+      <DependentUpon>FrmMatrizDePorter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMatrizParticipacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMatrizParticipacion.Designer.cs">
+      <DependentUpon>FrmMatrizParticipacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMision.Designer.cs">
+      <DependentUpon>FrmMision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmObjetivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmObjetivos.Designer.cs">
+      <DependentUpon>FrmObjetivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResumen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResumen.Designer.cs">
+      <DependentUpon>FrmResumen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmValores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmValores.Designer.cs">
+      <DependentUpon>FrmValores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVision.Designer.cs">
+      <DependentUpon>FrmVision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\DataClasses3.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses3.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RJMessageBox.cs" />
+    <Compile Include="SOFTPETIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SOFTPETIDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SOFTPETIDataSet_3.cs">
+      <DependentUpon>SOFTPETIDataSet_3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SOFTPETIDataSet_3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SOFTPETIDataSet_3.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormMessageBox.resx">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBCG2.resx">
+      <DependentUpon>FrmBCG2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBCG3.resx">
+      <DependentUpon>FrmBCG3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBCGgenerado.resx">
+      <DependentUpon>FrmBCGgenerado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDAFO.resx">
+      <DependentUpon>FrmDAFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDashBoard2.resx">
+      <DependentUpon>FrmDashBoard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIdentif_Estrategia.resx">
+      <DependentUpon>FrmIdentif_Estrategia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPest.resx">
+      <DependentUpon>FrmPest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnalisis.resx">
+      <DependentUpon>FrmAnalisis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoCadenaValor.resx">
+      <DependentUpon>FrmAutoCadenaValor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutodiagnosticoBCG_2.resx">
+      <DependentUpon>FrmAutodiagnosticoBCG_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutodiagosticoPorter.resx">
+      <DependentUpon>FrmAutodiagosticoPorter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoPest.resx">
+      <DependentUpon>FrmAutoPest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBCG.resx">
+      <DependentUpon>FrmBCG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadenaValor.resx">
+      <DependentUpon>FrmCadenaValor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDashBoard.resx">
+      <DependentUpon>FrmDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmpresas.resx">
+      <DependentUpon>FrmEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformacion.resx">
+      <DependentUpon>FrmInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMatrizCame.resx">
+      <DependentUpon>FrmMatrizCame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMatrizDePorter.resx">
+      <DependentUpon>FrmMatrizDePorter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMatrizParticipacion.resx">
+      <DependentUpon>FrmMatrizParticipacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMision.resx">
+      <DependentUpon>FrmMision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmObjetivos.resx">
+      <DependentUpon>FrmObjetivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResumen.resx">
+      <DependentUpon>FrmResumen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmValores.resx">
+      <DependentUpon>FrmValores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVision.resx">
+      <DependentUpon>FrmVision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Modelos\DataClasses3.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses3.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Modelos\DataClasses3.dbml.layout">
+      <DependentUpon>DataClasses3.dbml</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SOFTPETIDataSet.xsc">
+      <DependentUpon>SOFTPETIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SOFTPETIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SOFTPETIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SOFTPETIDataSet.xss">
+      <DependentUpon>SOFTPETIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SOFTPETIDataSet_3.xsc">
+      <DependentUpon>SOFTPETIDataSet_3.xsd</DependentUpon>
+    </None>
+    <None Include="SOFTPETIDataSet_3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SOFTPETIDataSet_3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SOFTPETIDataSet_3.xss">
+      <DependentUpon>SOFTPETIDataSet_3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RELACION MISION VISION.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadenadevalor.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RIGHT24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RIGHT32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LEFT32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafico2cadenadevalor.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\chat.png" />
+    <Content Include="Resources\error.png" />
+    <Content Include="Resources\exclamation.png" />
+    <Content Include="Resources\information.png" />
+    <Content Include="Resources\pest.png" />
+    <Content Include="Resources\question.png" />
+    <None Include="Resources\pest1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
