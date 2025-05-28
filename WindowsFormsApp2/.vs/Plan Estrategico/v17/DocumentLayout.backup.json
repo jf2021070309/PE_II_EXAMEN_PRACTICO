@@ -1,18 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\windowsformsapp2\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmpest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmpest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmpest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmpest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmautopest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmautopest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmautopest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmautopest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\andre\\desktop\\nueva carpeta\\planeamientoe\\windowsformsapp2\\windowsformsapp2\\frmempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmanalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmanalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmdashboard2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmobjetivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmobjetivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\windowsformsapp2\\frmempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|c:\\users\\hp\\pictures\\peti\\examen\\pe_ii_examen_practico\\windowsformsapp2\\windowsformsapp2\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0F50F7C-9F9B-445B-9D49-41A5A980F079}|WindowsFormsApp2\\Plan Estrategico.csproj|solutionrelative:windowsformsapp2\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +62,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmAnalisis.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmAnalisis.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmAnalisis.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmAnalisis.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmAnalisis.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:07:32.499Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmEmpresas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\WindowsFormsApp2\\FrmEmpresas.cs",
+              "Title": "FrmAutoPest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmAutoPest.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmAutoPest.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmAutoPest.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmAutoPest.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:58:34.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmPest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmPest.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmPest.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmPest.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmPest.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA4wFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:57:35.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAutoPest.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmAutoPest.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmAutoPest.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmAutoPest.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmAutoPest.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:57:22.817Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPest.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmPest.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmPest.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmPest.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmPest.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:55:57.538Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmEmpresas.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmEmpresas.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmEmpresas.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\WindowsFormsApp2\\FrmEmpresas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmEmpresas.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmEmpresas.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:47:21.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T07:17:34.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmObjetivos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmObjetivos.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmObjetivos.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmObjetivos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmObjetivos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:55:56.615Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmDashBoard.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmDashBoard.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmDashBoard.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmDashBoard.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:47:12.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmDashBoard2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmDashBoard2.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmDashBoard2.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmDashBoard2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmDashBoard2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:47:08.787Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmDashBoard.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmDashBoard.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmDashBoard.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmDashBoard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\FrmDashBoard.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:47:07.793Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmEmpresas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmEmpresas.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmEmpresas.cs",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmEmpresas.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\FrmEmpresas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T11:21:28.405Z",
@@ -38,24 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\Program.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
-              "RelativeToolTip": "WindowsFormsApp2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:17:34.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "FrmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\WindowsFormsApp2\\FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmLogin.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\andre\\Desktop\\Nueva carpeta\\PlaneamientoE\\WindowsFormsApp2\\WindowsFormsApp2\\FrmLogin.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\HP\\Pictures\\peti\\examen\\PE_II_EXAMEN_PRACTICO\\WindowsFormsApp2\\WindowsFormsApp2\\FrmLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\FrmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T03:10:10.807Z",

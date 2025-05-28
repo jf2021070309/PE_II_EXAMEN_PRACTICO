@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPest));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label119 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btncerrar = new System.Windows.Forms.PictureBox();
@@ -40,11 +43,14 @@
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.chartFactores = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimisar)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartFactores)).BeginInit();
             this.SuspendLayout();
             // 
             // label119
@@ -114,11 +120,12 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 116);
+            this.label1.Location = new System.Drawing.Point(19, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(521, 303);
+            this.label1.Size = new System.Drawing.Size(642, 51);
             this.label1.TabIndex = 657;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Text = "El siguiente gráfico reflejará la valoración obtenida en cada una de las variable" +
+    "s del diagnóstico macro-entorno. \r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label7
@@ -149,7 +156,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(256, 141);
+            this.button5.Location = new System.Drawing.Point(256, 127);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(434, 35);
             this.button5.TabIndex = 41;
@@ -160,9 +167,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources.pest;
-            this.pictureBox1.Location = new System.Drawing.Point(522, 149);
+            this.pictureBox1.Location = new System.Drawing.Point(667, 106);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(460, 200);
+            this.pictureBox1.Size = new System.Drawing.Size(302, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 658;
             this.pictureBox1.TabStop = false;
@@ -175,12 +182,41 @@
             this.panelContenedor.Size = new System.Drawing.Size(960, 900);
             this.panelContenedor.TabIndex = 661;
             // 
+            // chartFactores
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartFactores.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartFactores.Legends.Add(legend1);
+            this.chartFactores.Location = new System.Drawing.Point(45, 176);
+            this.chartFactores.Name = "chartFactores";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFactores.Series.Add(series1);
+            this.chartFactores.Size = new System.Drawing.Size(483, 251);
+            this.chartFactores.TabIndex = 662;
+            this.chartFactores.Text = "chart1";
+            this.chartFactores.MouseMove += new System.Windows.Forms.MouseEventHandler(this.chartFactores_MouseMove);
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(580, 240);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(319, 170);
+            this.label2.TabIndex = 663;
+            this.label2.Text = "Leyenda de colores:\r\n\r\nRojo: Impacto alto (≥ 70%)\r\n\r\nNaranja: Impacto medio (40% " +
+    "– 69%)\r\n\r\nVerde: Impacto bajo (< 40%)";
+            // 
             // FrmPest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1018, 1061);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.chartFactores);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -193,6 +229,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnminimisar)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartFactores)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -210,5 +247,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panelContenedor;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartFactores;
+        private System.Windows.Forms.Label label2;
     }
 }
